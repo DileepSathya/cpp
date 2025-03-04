@@ -38,7 +38,7 @@ void selection_sort_gpt(vector<int> &arr) {
             std::swap(*min_ptr, arr[i]);
         }
     }
-
+    
     // Print sorted array
     cout << "Selection Sort: ";
     for (int item : arr) {
